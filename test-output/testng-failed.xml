@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="rajitha.reports.ListenersDemo"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Virtusa.MobileFramework.TC_002_ErrorValidations">
+        <methods>
+          <include name="configuresetup"/>
+          <include name="errorValidation" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="startApp"/>
+          <include name="endApp"/>
+        </methods>
+      </class> <!-- Virtusa.MobileFramework.TC_002_ErrorValidations -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
